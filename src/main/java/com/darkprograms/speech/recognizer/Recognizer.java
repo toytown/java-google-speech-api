@@ -283,7 +283,8 @@ public class Recognizer {
                         googleResponse.setConfidence(String.valueOf(confidence));
                         prevConfidence = confidence;
                     } else
-                        googleResponse.getOtherPossibleResponses().add(transcript);
+                    	System.out.println("--");
+                       // googleResponse.getOtherPossibleResponses().add(transcript);
                 }
             }
         }
